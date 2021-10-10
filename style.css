@@ -11,3 +11,35 @@
         margin: 0;
         padding: 0;
       }
+
+      /*bounds changed code*/
+      #panel {
+        position:absolute;
+        top: 230px;    
+        left: 40%;    
+        z-index: 5;    
+        padding: 0px;    
+        border: 0px solid #999;    
+        text-align: center; 
+        background:#0000FF;
+        width:150px;
+        color:#fff;
+      }
+
+      #panel, .panel {    
+        font-family: 'Roboto','sans-serif';    
+        line-height: 30px;    
+        padding-left: 10px;    
+      }    
+        
+      #panel select, #panel input, .panel select, .panel input {    
+        font-size: 15px;    
+      }    
+        
+      #panel select, .panel select {    
+        width: 100%;    
+      }    
+        
+      #panel i, .panel i {    
+        font-size: 12px;    
+      }
