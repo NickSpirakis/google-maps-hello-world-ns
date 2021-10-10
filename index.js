@@ -5,7 +5,7 @@ function initMap() {
     center: { lat: -34.397, lng: 150.644 },
     zoom: 8,
   });
-
+//the part that uses the get element by id are based off of the tutorial mentioned in readme
   gMap.addListener('bounds_changed', () => {
     document.getElementById('panel').innerHTML = 'Bounds Changed';
     window.setTimeout(() => {
